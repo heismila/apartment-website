@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery | LuxuryLiving Apartments</title>
+    <link rel="stylesheet" href="apart.css">
+</head>
+<body>
+     
+    <!-- Gallery Section -->
+<section id="gallery" class="gallery">
+    <div class="container">
+        <h2 class="section-title">Apartment Gallery</h2>
+        <p class="section-subtitle">Explore our luxury apartments through stunning visuals</p>
+        
+        <!-- Gallery Filter -->
+        <div class="gallery-filter">
+            <button class="filter-btn active" data-filter="all">All Photos</button>
+            <button class="filter-btn" data-filter="interior">Interior</button>
+            <button class="filter-btn" data-filter="exterior">Exterior</button>
+            <button class="filter-btn" data-filter="rooms">Rooms</button>
+            <button class="filter-btn" data-filter="amenities">Amenities</button>
+            <button class="filter-btn" data-filter="views">City Views</button>
+        </div>
+        
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+            <!-- Interior Images -->
+            <div class="gallery-item interior" data-category="interior">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Modern Living Room">
+                <div class="gallery-overlay">
+                    <h3>Modern Living Room</h3>
+                    <p>Spacious open-concept design</p>
+                    <span class="gallery-category">Interior</span>
+                </div>
+            </div>
+            
+            <div class="gallery-item interior" data-category="interior">
+                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Luxury Kitchen">
+                <div class="gallery-overlay">
+                    <h3>Gourmet Kitchen</h3>
+                    <p>Premium appliances & marble countertops</p>
+                    <span class="gallery-category">Interior</span>
+                </div>
+            </div>
+            
+            <!-- Exterior Images -->
+                        <div class="gallery-item exterior" data-category="exterior">
+                <img src="https://images.unsplash.com/photo-1567496898669-ee935f5f647a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Building Exterior">
+                <div class="gallery-overlay">
+                    <h3>Modern Architecture</h3>
+                    <p>Stunning building design</p>
+                    <span class="gallery-category">Exterior</span>
+                </div>
+            </div>
+            
+            <div class="gallery-item exterior" data-category="exterior">
+                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Building Lobby">
+                <div class="gallery-overlay">
+                    <h3>Grand Lobby</h3>
+                    <p>Elegant entrance area</p>
+                    <span class="gallery-category">Exterior</span>
+                </div>
+            </div>
+            
+            <!-- Rooms -->
+            <div class="gallery-item rooms" data-category="rooms">
+                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2058&q=80" alt="Master Bedroom">
+                <div class="gallery-overlay">
+                    <h3>Master Bedroom</h3>
+                    <p>Luxurious sleeping quarters</p>
+                    <span class="gallery-category">Rooms</span>
+                </div>
+            </div>
+            
+            <div class="gallery-item rooms" data-category="rooms">
+                <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Modern Bathroom">
+                <div class="gallery-overlay">
+                    <h3>Spa Bathroom</h3>
+                    <p>Marble finishes & rainfall shower</p>
+                    <span class="gallery-category">Rooms</span>
+                </div>
+            </div>
+            
+            <!-- Amenities -->
+            <div class="gallery-item amenities" data-category="amenities">
+                <img src="images/apartment swimming pool.webp" alt="Infinity Pool">
+                <div class="gallery-overlay">
+                    <h3>Infinity Pool</h3>
+                    <p>Rooftop swimming experience</p>
+                    <span class="gallery-category">Amenities</span>
+                </div>
+            </div>
+            
+            <div class="gallery-item amenities" data-category="amenities">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Fitness Center">
+                <div class="gallery-overlay">
+                    <h3>Fitness Center</h3>
+                    <p>24/7 gym access</p>
+                    <span class="gallery-category">Amenities</span>
+                </div>
+            </div>
+            
+            <!-- City Views -->
+            <div class="gallery-item views" data-category="views">
+                <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Balcony View">
+                <div class="gallery-overlay">
+                    <h3>City Panorama</h3>
+                    <p>Breathtaking skyline views</p>
+                    <span class="gallery-category">City Views</span>
+                </div>
+            </div>
+            
+            <div class="gallery-item views" data-category="views">
+                <img src="https://images.unsplash.com/photo-1544984243-ec57ea16fe25?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Night View">
+                <div class="gallery-overlay">
+                    <h3>Night Skyline</h3>
+                    <p>Evening city lights</p>
+                    <span class="gallery-category">City Views</span>
+                </div>
+            </div>
+            
+            
+            <!-- More Interior -->
+            <div class="gallery-item interior" data-category="interior">
+                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2058&q=80" alt="Modern Dining Area">
+                <div class="gallery-overlay">
+                    <h3>Elegant Dining</h3>
+                    <p>Formal dining space</p>
+                    <span class="gallery-category">Interior</span>
+                </div>
+            </div>
+            
+            <!-- More Rooms -->
+                        <!-- More Rooms -->
+            <div class="gallery-item rooms" data-category="rooms">
+                <img src="https://plus.unsplash.com/premium_photo-1674773520192-cec460924db7?q=80&w=433&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Walk-in Closet">
+                <div class="gallery-overlay">
+                    <h3>Walk-in Closet</h3>
+                    <p>Custom storage solutions</p>
+                    <span class="gallery-category">Rooms</span>
+                </div>
+            </div>
+
+            <!-- Image 13 - Interior -->
+            <div class="gallery-item interior" data-category="interior">
+                <img src="https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-4.0.3&auto=format&fit=crop&w=2052&q=80" alt="Home Office">
+                <div class="gallery-overlay">
+                    <h3>Home Office</h3>
+                    <p>Productive workspace with natural light</p>
+                    <span class="gallery-category">Interior</span>
+                </div>
+            </div>
+    <!-- Image 14 - Exterior -->
+    <div class="gallery-item exterior" data-category="exterior">
+        <img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-4.0.3&auto=format&fit=crop&w=2068&q=80" alt="Building Entrance">
+        <div class="gallery-overlay">
+            <h3>Main Entrance</h3>
+            <p>Grand building entrance</p>
+            <span class="gallery-category">Exterior</span>
+        </div>
+    </div>
+
+    <!-- Image 15 - Rooms -->
+    <div class="gallery-item rooms" data-category="rooms">
+        <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Guest Bedroom">
+        <div class="gallery-overlay">
+            <h3>Guest Bedroom</h3>
+            <p>Comfortable guest accommodation</p>
+            <span class="gallery-category">Rooms</span>
+        </div>
+    </div>
+
+    <!-- Image 16 - Amenities -->
+    <div class="gallery-item amenities" data-category="amenities">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Yoga Studio">
+        <div class="gallery-overlay">
+            <h3>Yoga Studio</h3>
+            <p>Peaceful wellness space</p>
+            <span class="gallery-category">Amenities</span>
+        </div>
+    </div>
+
+    <!-- Image 17 - Views -->
+    <div class="gallery-item views" data-category="views">
+        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Sunset View">
+        <div class="gallery-overlay">
+            <h3>Sunset Views</h3>
+            <p>Beautiful evening skies</p>
+            <span class="gallery-category">City Views</span>
+        </div>
+    </div>
+
+    <!-- Image 18 - Interior -->
+    <div class="gallery-item interior" data-category="interior">
+        <img src="https://images.unsplash.com/photo-1721838449374-722202a68197?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEVudGVydGFpbm1lbnQlMjBBcmVhfGVufDB8fDB8fHww" alt="Entertainment Area">
+        <div class="gallery-overlay">
+            <h3>Entertainment Area</h3>
+            <p>Perfect for hosting guests</p>
+            <span class="gallery-category">Interior</span>
+        </div>
+    </div>
+
+    <!-- Image 19 - Exterior -->
+    <div class="gallery-item exterior" data-category="exterior">
+        <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Pool Area">
+        <div class="gallery-overlay">
+            <h3>Pool Deck</h3>
+            <p>Outdoor relaxation space</p>
+            <span class="gallery-category">Exterior</span>
+        </div>
+    </div>
+
+    <!-- Image 20 - Rooms -->
+    <div class="gallery-item rooms" data-category="rooms">
+        <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2080&q=80" alt="Kids Room">
+        <div class="gallery-overlay">
+            <h3>Children's Room</h3>
+            <p>Spacious and safe</p>
+            <span class="gallery-category">Rooms</span>
+        </div>
+    </div>
+
+    <!-- Image 21 - Amenities -->
+    <div class="gallery-item amenities" data-category="amenities">
+        <img src="https://images.unsplash.com/photo-1762419757174-31e02475fc66?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8U2VjdXJpdHklMjBEZXNrfGVufDB8fDB8fHww" alt="Security Desk">
+        <div class="gallery-overlay">
+            <h3>Security Desk</h3>
+            <p>24/7 professional security</p>
+            <span class="gallery-category">Amenities</span>
+        </div>
+    </div>
+
+    <!-- Image 22 - Views -->
+    <div class="gallery-item views" data-category="views">
+        <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Morning View">
+        <div class="gallery-overlay">
+            <h3>Morning Skyline</h3>
+            <p>Wake up to amazing views</p>
+            <span class="gallery-category">City Views</span>
+        </div>
+    </div>
+
+    <!-- Image 23 - Interior -->
+    <div class="gallery-item interior" data-category="interior">
+        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Laundry Room">
+        <div class="gallery-overlay">
+            <h3>Laundry Room</h3>
+            <p>Modern and convenient</p>
+            <span class="gallery-category">Interior</span>
+        </div>
+    </div>
+
+    <!-- Image 24 - Rooms -->
+    <div class="gallery-item rooms" data-category="rooms">
+        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Master Bathroom">
+        <div class="gallery-overlay">
+            <h3>Master Bathroom</h3>
+            <p>Luxurious ensuite</p>
+            <span class="gallery-category">Rooms</span>
+        </div>
+    </div>
+
+</div> 
+        
+        
+        <!-- Load More Button -->
+        <div class="gallery-load-more">
+            <button class="btn btn-primary" id="loadMore">Load More Photos</button>
+        </div>
+    </div>
+</section>
+<script src="gallery.js"></script>
+<script>
+window.addEventListener('load', () => {
+    const problems = [];
+    document.querySelectorAll('.gallery-item').forEach((el, i) => {
+        if (el.parentElement.className !== 'gallery-grid') {
+            problems.push(
+                '#' + (i+1) +
+                ' nested inside ' + el.parentElement.className +
+                ' (heading: ' + (el.parentElement.querySelector('h3')?.textContent || '?') + ')'
+            );
+        }
+    });
+    alert(problems.length ? problems.join('\n') : 'All items OK — all directly inside .gallery-grid');
+});
+</script>
+</body>
+</html>
